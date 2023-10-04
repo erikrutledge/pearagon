@@ -39,10 +39,10 @@ def __main__():
                         full_name = f"{data['firstName']} {data['middleInitial']} {data['lastName']}"
                     else:
                         full_name = f"{data['firstName']} {data['lastName']}"
-                    print(f"Author: {full_name}\n")
+                    print(f"Author: {full_name}")
 
             else:
-                print("\nBook not found, please try again.\n")
+                print("Book not found, please try again.")
 
 
 if __name__ == __main__():
